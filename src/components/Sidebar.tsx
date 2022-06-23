@@ -15,10 +15,10 @@ export const GET_LESSONS_QUERY = gql`
 
 interface GetLessonsQueryResponse {
   lessons: {
-    id: any;
-    title: String;
-    slug: String;
-    availableAt: any;
+    id: string;
+    title: string;
+    slug: string;
+    availableAt: string;
     lessonType: "live" | "class";
   }[];
 }
